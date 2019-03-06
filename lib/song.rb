@@ -54,9 +54,17 @@ class Song
   else
     @@artist_count[artist] = 1 
     
+     end
+     
     end
-    end
-    @@artist_count
+    
   end
+    def self.genre_count
+    @@genres.map do |genre|
+      self.genre_count[:genre]
+     # binding.pry
+    end    
+  end
+  
 
 end
